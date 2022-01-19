@@ -1,12 +1,13 @@
 public class Humain {
     private String nom;
+    
     private String boissonFavorite="Eau";
 
     public Humain(String nom_de_humain){
         this.nom=nom_de_humain;
     }
 
-    public String quel_est_ton_nom(){
+    public String quelEstTonNom(){
         return this.nom;
 
     }
@@ -24,4 +25,6 @@ public class Humain {
         System.out.println("Ah ! un bon verre d' " +this.boissonFavorite+" ! GLOUPS !");
 
     }
+
+    
 }
